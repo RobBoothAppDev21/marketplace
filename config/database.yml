@@ -87,4 +87,4 @@ production:
   <<: *default
   database: <%= ENV['POSTGRES_DB'] %>
   username: marketplace
-  password: <%= ENV["MARKETPLACE_DATABASE_PASSWORD"] %>
+  password: <%= ENV["POSTGRES_PASSWORD"] %>
