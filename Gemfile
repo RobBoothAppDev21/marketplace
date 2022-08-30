@@ -67,6 +67,7 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem 'table_print'
+  gem 'letter_opener'
   
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
